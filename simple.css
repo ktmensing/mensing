@@ -10,7 +10,7 @@
   --base-fontsize: 1.15rem;
 
   /* Major third scale progression - see https://type-scale.com/ */
-  --header-scale: 1.563;
+  --header-scale: 1.25;
 
   /* Line height is set to the "Golden ratio" for optimal legibility */
   --line-height: 1.618;
@@ -149,7 +149,7 @@ footer {
 h1 {
   font-size: calc(
     var(--base-fontsize) * var(--header-scale) * var(--header-scale) *
-      var(--header-scale) * var(--header-scale)
+      var(--header-scale) * var(--header-scale) * var(--header-scale)  * var(--header-scale) * var(--header-scale) * var(--header-scale)
   );
   margin-top: calc(var(--line-height) * 1.5rem);
   color: var(--accent);
